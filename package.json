@@ -1,0 +1,21 @@
+{
+  "name": "u9itus-partner-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shows your published U9itus community page on your own domain, through Vercel.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
